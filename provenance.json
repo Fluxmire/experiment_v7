@@ -1,0 +1,28 @@
+{
+  "design": "Claude research merged v5 (round 2 loop 7, best pipeline): sedge-wren lumen backbone + newvictor SIDES rewrite feedback + 3rd Sol-high post refine + concurrent chains (deterministic per-chain budget guard) + per-image render cache + same-id transport resends",
+  "base": "Olauge-Secret/sedge-wren@fc79ce3ef8ea1c8812d09ba7c07c438b376e1f4c",
+  "merged_idea_from": "SmoothTight/newvictor@0f4bc9370c083b8808e4d78645fe3892e67338a2 (miner404/pipeline.py SIDES views, prompts.REWRITE side/back instruction); re-implemented",
+  "verbatim_from_base": {
+    "instructions.md": "43c69f1ba3dca9d847b826cc799b7f76cac8fe8051449157dc93cd4941a2b52f",
+    "miner/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "miner/images.py": "20a8467592a369a76d6546eae046faef91c901be01b857ced031a55386489a4f",
+    "miner/lumen.py": "0ebd075c496a24a86177f49e694b05651e3c37a67c3098beae8b2d6d8406fea0",
+    "miner/lumen_wrap.py": "e2739cba8637da550430bb48dedcb4e7c7190b12926474975a88dc5d8bdfc2bd",
+    "miner/pipeline.py": "111e232a69f1936cf8ddbbb14f48edb1f6c9e7a2bfeff9d0cbb0a91f7d79b837",
+    "miner/rewrite.py": "3dc8d2a8f1db986d67646d1d38c1673bb12cbf5dfef703e61d0fafc33f59f59f",
+    "miner/rewrite_prompts.py": "eada069c2efc4d0a84fc0d43e1f3fd7df6e15db76151c1a782bd3bc504f032a4",
+    "miner/run.py": "6ef8e5029eb9755084282af182e92170a119c32518a168d933a8757512a9d609",
+    "miner/turns.py": "25b56b79ac21fc40f13e83bb71739ed6e3903ff0958e0005a8d2b113743eb9e1",
+    "proof-parameters/circuit.bin": "451b8ebe434e1b9cee5982a46f4630d3d3647fe49c11f2ec6d88b8731617f9c7",
+    "proof-parameters/proving.bin": "31bd198d1325f526f5f1add2272bf73ffaff23c9e2d0ac7463c0f5e88c8701e7",
+    "proof-parameters/verifying.bin": "6478059e4ad0d39e8c157c76cea9c6dd777c2ab5143cf8694876094facf39b16",
+    "pyproject.toml": "464b1872a89b65c42783bdd95ee6246a457e4aa977fe9311840d9cad20270c2d",
+    "witness.json": "f5fcc74b76200e45067e05c48838002a3ff23205c34d0f2d9a945a5098114ec8"
+  },
+  "modified_from_base": {
+    "main.py": "df3f54f521299fc490fff6f615e026038159523af16acc50b0476c7076b18a93"
+  },
+  "added": {
+    "miner/merge.py": "9edcc059c8ca26db48a6d52a9d41dfbd89b8de48b25cc09fcd2bdd33d909851a"
+  }
+}
